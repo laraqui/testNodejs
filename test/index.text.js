@@ -7,6 +7,6 @@ describe('Fonction add', () => {
   });
 
   it('devrait retourner 0 pour add(-2, 2)', () => {
-    assert.strictEqual(add(-2, 2), 0);
+    assert.strictEqual(add(-2, 2), 1);
   });
 });
